@@ -1,1 +1,3 @@
 add_subdirectory(SimpleExample)
+add_subdirectory(SimpleExample2)
+add_subdirectory(MyExample)

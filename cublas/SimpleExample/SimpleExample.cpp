@@ -21,7 +21,7 @@ int main(void){
     int i, j;
     float* devPtrA;
     float* a = 0;
-    a = (float *)malloc(M * N * sizeof(*a));
+    a = new float[M * N];
     if (!a) {
         printf("host memory allocation failed");
         return EXIT_FAILURE;
