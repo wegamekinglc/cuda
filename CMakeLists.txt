@@ -8,3 +8,5 @@ set(CUDA_LIBRARY_DIR /usr/local/cuda-7.5/lib64)
 include_directories(${CUDA_INCLUDE_DIR})
 
 add_subdirectory(cublas)
+add_subdirectory(examples)
+add_subdirectory(openmp)
