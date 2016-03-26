@@ -2,13 +2,10 @@
 #include <vector>
 using namespace std;
 
-#include <boost/timer.hpp>
 
 
 int main()
 {
-    boost::timer timer;
-
     const int N = 50000;
 
     vector<int> a(N);
@@ -30,8 +27,6 @@ int main()
         cerr << "Test FAILED!" << endl;
         return 1;
     }
-
-    cout << timer.elapsed() << endl;
 
     return 0;
 
