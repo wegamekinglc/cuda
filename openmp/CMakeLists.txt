@@ -4,5 +4,5 @@ file(GLOB OPENMP_FILES "*.hpp" "*.cpp")
 add_executable(testOpenmp ${OPENMP_FILES})
 
 if(UNIX)
-    target_link_libraries(seqAsync gomp)
+    target_link_libraries(testOpenmp gomp)
 endif()
